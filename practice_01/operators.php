@@ -45,4 +45,3 @@ $q = ++$p; // means, first $p = $p + 1 then $q = $p; // $p = $p++ ..($q = $p)
 // $x /=2;
 echo "q is: {$q} and p is: {$p}\n";
 echo "\n";
-
