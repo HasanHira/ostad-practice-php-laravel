@@ -1,15 +1,15 @@
 <?php
 // Ternary operator examples with if statements
 $num = 13;
-if(12 == $num){
+if ( 12 == $num ) {
     echo "Twelve";
-}elseif(10 == $num){
+} elseif ( 10 == $num ) {
     echo "Ten";
-}else {
+} else {
     echo "A number";
 }
 echo "\n";
 
 //ternary
-$numInWord = (12 == $num) ? "Twelve" : ((10 == $num) ? "Ten" : "A number");
+$numInWord = ( 12 == $num ) ? "Twelve" : (  ( 10 == $num ) ? "Ten" : "A number" );
 echo $numInWord;
