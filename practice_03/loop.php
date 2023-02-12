@@ -55,3 +55,10 @@ $n = 1;
 label: $n++;
 echo "$n - # \n";
 if($n<=5) goto label;
+
+#02 Loop for summation
+$sum = 0;
+for ( $i = 1; $i <= 100; $i++ ) {
+    $sum += $i;
+}
+echo "The sum of the series from 1 to 100 is: {$sum}";
