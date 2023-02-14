@@ -4,5 +4,3 @@
 /* What is Agile Model? Write a short description of it.
 */
 
-echo "hello world.";
-?>

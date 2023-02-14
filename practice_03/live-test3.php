@@ -13,7 +13,7 @@ output: true(because 5+3=8)
 */
 
 //
-function hasPairWithSum($arr, $targetSum) {
+function pairWithSum($arr, $targetSum) {
     $arrayLength = count($arr);
     for ($i = 0; $i < $arrayLength; $i++) {
       for ($j = $i + 1; $j < $arrayLength; $j++) {
@@ -28,7 +28,7 @@ function hasPairWithSum($arr, $targetSum) {
   $inputArray = [5, 7, 1, 2, 8, 4, 3];
   $targetSum = 5;
   
-  if (hasPairWithSum($inputArray, $targetSum)) {
+  if (pairWithSum($inputArray, $targetSum)) {
     echo "True\n";
   } else {
     echo "False\n";
