@@ -4,7 +4,6 @@
  * $variable that only work in outer of function(s) if not use, word in func..
  *  global $varibale or echo $GLOBALS['varible']
  */
-
  #1 global scope
  $varName = 1;
  function printVarName(){
@@ -46,8 +45,9 @@
   
   #1 example normal
   echo "==== Example Normal ====\n";
+
   function numPrint(){
-      $n;
+
       $n = $n ?? 0;
       $n++;
       echo "{$n} \n";
@@ -59,7 +59,9 @@
     
     #1 example static
 echo "==== Example Static ====\n";
+
  function numAPrint(){
+    
     static $i;
     $i = $i ?? 0;
     $i++;
