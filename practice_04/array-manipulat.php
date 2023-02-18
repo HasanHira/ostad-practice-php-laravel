@@ -67,7 +67,7 @@ echo "Collected data: $userName \n";
 /**
  * To manipulate array
  * array_unshift()
- * cut data form start and strore in a variable
+ * add data form start and strore in a variable
  */
 echo "array_unshift()\n Add data->array in start\n";
 echo PHP_EOL;
