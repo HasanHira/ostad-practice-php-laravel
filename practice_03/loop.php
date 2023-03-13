@@ -52,9 +52,11 @@ echo "Go to Loop";
 echo PHP_EOL;
 
 $n = 1;
-label: $n++;
+label:$n++;
 echo "$n - # \n";
-if($n<=5) goto label;
+if ( $n <= 5 ) {
+    goto label;
+}
 
 #02 Loop for summation
 $sum = 0;
